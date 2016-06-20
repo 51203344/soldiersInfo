@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SoldiersInfo.BundleConfig" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoldiersInfo.FilterConfig" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoldiersInfo.RouteConfig" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoldiersInfo.MvcApplication" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoldiersInfo.Controllers.Import">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Controllers\Import.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoldiersInfo.Controllers.Printing">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQRkAEAAoAPBqAAiAAAABCBDjAhAIihACQAGBAQgBg=</HashCode>
+      <FileName>Controllers\Printing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoldiersInfo.Controllers.Searching">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAA4AAAAAAAQAAAAAAAAAAAAAAAAAQAAoAAA=</HashCode>
+      <FileName>Controllers\Searching.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoldiersInfo.Controllers.SoldierController">
+    <Position X="4" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACARAQCAAAAIAAAAEAEAAFQCAAMAQAgEAAA=</HashCode>
+      <FileName>Controllers\SoldierController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoldiersInfo.Migrations.InitialCreate" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201605011713554_InitialCreate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoldiersInfo.Migrations.Changing_Annoucement_Order" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201605040514125_Changing_Annoucement_Order.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoldiersInfo.Migrations.Changing_Annoucement_Fix_Grammar_Error" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\201605040516544_Changing_Annoucement_Fix_Grammar_Error.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SoldiersInfo.Migrations.Configuration" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Migrations\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoldiersInfo.Models.Soldier">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SoldiersInfo.Models.Soldier.Annoucement" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\Soldier.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EQAAAAAAAABAgAAACAAACAgAEAAAABAAAAAACAAAAAQ=</HashCode>
+      <FileName>Models\Soldier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoldiersInfo.Models.SoldiersInfoContext" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SoldiersInfoContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoldiersInfo.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.Mvc.Controller" Collapsed="true">
+    <Position X="9" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Struct Name="SoldiersInfo.Controllers.DocObject" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIQAAAAAAAAAAAAIQAAAoAAAAQAAABIAAAAAwAAAAA=</HashCode>
+      <FileName>Controllers\Printing.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

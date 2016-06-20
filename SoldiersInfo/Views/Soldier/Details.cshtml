@@ -1,0 +1,89 @@
+﻿@model SoldiersInfo.Models.Soldier
+
+@{
+    ViewBag.Title = "Chi tiết";
+}
+
+<h2>Thông tin chiến sĩ @Model.lastName @Model.middleName @Model.firstName</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.lastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.middleName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.middleName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.firstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.firstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.birthday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.birthday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.company)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.company)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.servingDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.servingDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pointDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pointDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.note)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.note)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.annouce)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.annouce)
+        </dd>
+
+    </dl>
+</div>
+<div class="btn btn-group">
+    @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.ID }, new { @class = "btn btn-default" }) |
+    @Html.ActionLink("Mục lục", "Index", null, new { @class = "btn btn-default"})
+</div>

@@ -1,0 +1,80 @@
+﻿@model SoldiersInfo.Models.Soldier
+
+@{
+    ViewBag.Title = "Xóa thông tin";
+}
+
+<div>
+    <div class="container">
+        <div class="col-lg-3">
+            <h2>Xóa thông tin chiến sĩ</h2>
+            <div>
+                @Html.ActionLink("Mục lục", "Index", null, new { @class = "btn btn-default" })
+            </div>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-9">
+            <br />
+            <h2>Chiến sĩ @Model.lastName @Model.middleName @Model.firstName</h2>
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.birthday)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.birthday)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.company)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.company)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.servingDate)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.servingDate)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.pointDate)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.pointDate)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.note)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.note)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.annouce)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.annouce)
+                </dd>
+
+            </dl>
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-actions no-color btn-group">
+                    <input type="submit" value="Xóa thông tin" class="btn btn-danger" />
+                    @Html.ActionLink("Hủy", "Index", null, new { @class = "btn btn-default" })
+                </div>
+            }
+        </div><!-- /.col-lg-8 -->
+    </div><!-- /.container -->
+</div>

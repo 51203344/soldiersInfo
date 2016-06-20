@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "ImportData";
+}
+
+<h2>ImportData</h2>
+@using (Html.BeginForm("ImportDataFromFile", "Soldier", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <label for="file">Filename:</label>
+    <input type="file" name="file" autocomplete="off" />
+
+    <input type="submit" name="Submit" id="Submit" value="Upload" />
+}
+@if (!String.IsNullOrEmpty(ViewBag.Message))
+{
+    <p>@ViewBag.Message</p>
+}
